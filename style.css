@@ -1,0 +1,148 @@
+/* === Global Body === */
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* === Container Login === */
+.login-container {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+  width: 370px;
+}
+
+/* === Logo Section === */
+.logo-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo-img {
+  width: 240px;
+}
+
+/* === Input Group (Username, Password) === */
+.input-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  padding: 8px 12px;
+  margin-bottom: 15px;
+  height: 42px;
+}
+
+.input-group i {
+  color: #888;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.input-group input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 14px;
+  flex: 1;
+}
+
+/* === Toggle Password Visibility === */
+.toggle-password {
+  cursor: pointer;
+}
+
+/* === Captcha Section === */
+.captcha-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.captcha-left {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 3px 6px;
+  height: 42px;
+}
+
+.captcha-img {
+  height: 35px;
+}
+
+.reload-btn {
+  background: none;
+  border: none;
+  margin-left: 6px;
+  cursor: pointer;
+  color: #444;
+  font-size: 15px;
+}
+
+.captcha-input {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  height: 42px;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 8px 12px;
+}
+
+.captcha-input i {
+  color: #888;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.captcha-input input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 14px;
+  flex: 1;
+}
+
+/* === Button Styles === */
+.btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #2f6fda;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #2f7f75;
+  color: #fff;
+}
+
+/* === Divider between buttons === */
+.divider {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 13px;
+  color: #888;
+}
